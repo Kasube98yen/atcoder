@@ -8,5 +8,9 @@ def main():
         if S == weather:
             print(weather_tuple[(i + 1) % 3])
 
+    # forしなくても
+    # weather_tuple.index(S)
+    # でもできる
+
 if __name__ == "__main__":
     main()
